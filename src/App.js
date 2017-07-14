@@ -15,12 +15,7 @@ class App extends Component {
             </Navbar.Header>
           </Grid>
         </Navbar>
-        <Jumbotron>
-          <Grid>
-            <h1>Welcome to React</h1>
-
-          </Grid>
-        </Jumbotron>
+      
       </div>
     );
   }
