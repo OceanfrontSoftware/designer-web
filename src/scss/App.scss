@@ -24,3 +24,36 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+
+
+.designer {
+  margin-top: 50px;
+  min-width: 900px;
+}
+
+
+  .designer-col {
+    position: absolute;
+    top: 50px;
+    bottom: 0px;
+  }
+
+  .designer-left-col {
+    left: 0;
+    width: 250px;
+  }
+
+  .designer-left-col a.active {background-color:#337ab7; color:#fff;}
+
+  .designer-middle-col {
+    left: 250px;
+    right: 250px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+
+  .designer-right-col {
+    right: 0;
+    width: 250px;
+  }
